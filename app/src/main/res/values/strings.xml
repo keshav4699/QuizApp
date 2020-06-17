@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_title">world geography quiz</string>
+
+    <string name="q1">Question 1</string>
+    <string name="question1">Where does Ganges River flows?</string>
+    <string name="q1_o1">Pakistan</string>
+    <string name="q1_o2">India</string> <!--correct answer-->
+    <string name="q1_o3">Nepal</string>
+
+    <string name="q2">Question 2</string>
+    <string name="question2">The great Victoria Desert is located in</string>
+    <string name="q2_o1">Australia</string> <!--correct answer-->
+
+    <string name="q3">Question 3</string>
+    <string name="question3">The intersecting lines drawn on maps and globes are</string>
+    <string name="q3_o3">geographic grids</string> <!--correct answer-->
+
+    <string name="q4">Question 4</string>
+    <string name="question4">The light of distant stars is affected by</string>
+    <string name="q4_o1">the earth\'s atmosphere</string> <!--correct answer-->
+    <string name="q4_o2">interstellar dust</string> <!--correct answer-->
+    <string name="q4_o3">distance</string>
+
+    <string name="q5">Question 5</string>
+    <string name="question5">Which of the following is tropical grassland?</string>
+    <string name="q5_o1">Prairies</string>
+    <string name="q5_o2">Pampas</string>
+    <string name="q5_o3">Savannah</string> <!--correct answer-->
+
+    <string name="q6">Question 6</string>
+    <string name="question6">The iron and steel industries of which of the following countries are almost fully dependent on imported raw materials?</string>
+    <string name="q6_o1">Japan</string> <!--correct answer-->
+    <string name="q6_o2">Poland</string>
+    <string name="q6_o3">Germany</string>
+
+    <string name="q7">Question 7</string>
+    <string name="question7">The temperature increases rapidly after</string>
+    <string name="q7_o1">ionosphere</string> <!--correct answer-->
+
+    <string name="q8">Question 8</string>
+    <string name="question8">The largest dune files are found in</string>
+    <string name="q8_o1">Middle East</string> <!--correct answer-->
+    <string name="q8_o2">North Africa</string> <!--correct answer-->
+    <string name="q8_o3">West India</string>
+
+    <string name="q9">Question 9</string>
+    <string name="question9">The humidity of the air depends upon</string>
+    <string name="q9_o1">temperature</string> <!--correct answer-->
+    <string name="q9_o2">location</string> <!--correct answer-->
+    <string name="q9_o3">weather</string> <!--correct answer-->
+
+    <string name="q10">Question 10</string>
+    <string name="question10">The least explosive type of volcano is called</string>
+    <string name="q10_o3">Basalt plateau</string> <!--correct answer-->
+
+    <string name="submit">SUBMIT</string>
+
+    <string name="send_score">SEND SCORE VIA MAIL</string>
+
+</resources>
