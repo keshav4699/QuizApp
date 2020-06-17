@@ -48,44 +48,95 @@ public class MainActivity extends AppCompatActivity {
 
         //for first question
         if (q1_op2.isChecked()) {
+            LinearLayout llv=findViewById(R.id.llv_q1);
+            llv.setBackgroundResource(R.drawable.correct_answer);
             score += 1;
+        }
+        else{
+            LinearLayout llv=findViewById(R.id.llv_q1);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for second question
         if (q2_op.getText().toString().trim().toLowerCase().equals("australia")) {
+            LinearLayout llv=findViewById(R.id.llv_q2);
+            llv.setBackgroundResource(R.drawable.correct_answer);
             score += 1;
+        }
+        else{
+            LinearLayout llv=findViewById(R.id.llv_q2);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for third question
         if (q3_op.getText().toString().trim().toLowerCase().equals("geographic grids")) {
             score += 1;
-
+            LinearLayout llv=findViewById(R.id.llv_q3);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q3);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for fourth question
         if (q4_o1.isChecked() && q4_o2.isChecked() && !q4_o3.isChecked()) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q4);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q4);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for fifth question
         if (q5_op3.isChecked()) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q5);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q5);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for sixth question
         if (q6_op1.isChecked()) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q6);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q6);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for seventh question
         if (q7_op.getText().toString().trim().toLowerCase().equals("ionosphere")) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q7);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q7);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for eighth question
         if (q8_o1.isChecked() && q8_o2.isChecked() && !q8_o3.isChecked()) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q8);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q8);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for ninth question
         if (q9_o1.isChecked() && q9_o2.isChecked() && q9_o3.isChecked()) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q9);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q9);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
         //for tenth question
         if (q10_op.getText().toString().trim().toLowerCase().equals("basalt plateau")) {
             score += 1;
+            LinearLayout llv=findViewById(R.id.llv_q10);
+            llv.setBackgroundResource(R.drawable.correct_answer);
+        } else {
+            LinearLayout llv=findViewById(R.id.llv_q10);
+            llv.setBackgroundResource(R.drawable.wrong_answer);
         }
 
         if (score == 10) {
